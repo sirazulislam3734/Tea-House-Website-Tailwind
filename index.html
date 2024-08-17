@@ -21,12 +21,12 @@
     <!-- main content -->
     <main class="max-w-screen-xl border-4  mx-auto px-5 md:px-14 lg:px-24">
             <!-- header section -->
-        <header class="md:flex pt-5 mb-20">
+        <header class="md:flex justify-between pt-5 mb-20">
         <!-- header-text-title -->
          <div class="space-y-8">
-            <h1 class="md:text-7xl text-5xl  font-bold">It's good <br>
+            <h1 class="md:text-4xl lg:text-7xl text-4xl  font-bold">It's good <br>
                 tea time at The <br> Tea House</h1>
-            <p class="text-slate-400">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <p class="text-slate-400 font-bold">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
             <button class="border text-white font-bold rounded-xl px-6 py-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000]">Explore More <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline text-white ">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
               </svg></button>
@@ -37,17 +37,63 @@
                 <img src="images/banner.png" alt="">
             </div>
             <!-- image price card -->
-            <div class="w-64 absolute bg-white bottom-1 left-8 drop-shadow-lg rounded-xl flex items-center px-7 py-5 gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-10 text-yellow-400">
+            <div class="lg:w-64 md:w-60 w-48 absolute bg-white bottom-1 lg:left-12 drop-shadow-lg rounded-xl flex items-center md:px-5 p-2 md:py-5 gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="lg:size-10 md:size-8 size-6 text-yellow-400">
                     <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
                   </svg>
                 <div>
-                    <h1 class="text-4xl font-bold">5.00</h1>
-                    <p class="text-gray-500 font-bold">Trust Pilot Ratings</p>
+                    <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold">5.00</h1>
+                    <p class="text-gray-500 font-bold whitespace-nowrap">Trust Pilot Ratings</p>
                 </div>
             </div>
           </div>
         </header>
+
+        <!-- main section -->
+         <main class="border mb-20">
+            <!-- Featured Products -->
+            <section class="border">
+                <div class="text-center space-y-4 max-w-4xl mx-auto">
+                    <h1 class="md:text-5xl text-3xl font-bold">Our Featured Products</h1>
+                <p class="text-gray-400 font-bold">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+                    <!--Jos card container -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mt-12">
+                    <!-- jos card 1-->
+                     <div class="w-72 mx-auto lg:w-64 bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] rounded-lg">
+                        <img class="py-8 px-20 md:py-8 md:px-16" src="images/tea-1.png" alt="">
+                        <div class="text-center px-8 pb-8">
+                            <h4 class="font-bold text-xl">Milk Tea</h4>
+                            <p class="text-gray-400 font-bold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                     </div>
+                     <!-- Jos card 2 -->
+                     <div class="w-72 mx-auto lg:w-64 bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] rounded-lg">
+                        <img class="py-8 px-20 md:py-8 md:px-16" src="images/tea-2.png" alt="">
+                        <div class="text-center px-8 pb-8">
+                            <h4 class="font-bold text-xl">Milk Tea</h4>
+                            <p class="text-gray-400 font-bold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                     </div>
+                     <!-- Jos card 3 -->
+                     <div class="w-72 mx-auto lg:w-64 bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] rounded-lg">
+                        <img class="py-8 px-20 md:py-8 md:px-16" src="images/tea-3.png" alt="">
+                        <div class="text-center px-8 pb-8">
+                            <h4 class="font-bold text-xl">Milk Tea</h4>
+                            <p class="text-gray-400 font-bold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                     </div>
+                     <!-- jos card 4 -->
+                     <div class="w-72 mx-auto lg:w-64 bg-gradient-to-b from-[#F5F5F5] to-[#FFFFFF] rounded-lg">
+                        <img class="py-8 px-20 md:py-8 md:px-16" src="images/tea-4.png" alt="">
+                        <div class="text-center px-8 pb-8">
+                            <h4 class="font-bold text-xl">Milk Tea</h4>
+                            <p class="text-gray-400 font-bold">Creamer could be replaced by fresh milk</p>
+                        </div>
+                     </div>
+                </div>
+            </section>
+         </main>
     </main>
 </body>
 </html>
